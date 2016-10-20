@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+</head>
+<body bgcolor="#7fffd4">
+<style back>
+    label{color:limegreen}
+    strong {color:limegreen}
+    h1{color: gold }
+    body{
+        background-images: url("");
+    }
+</style>
+
+
+
+
+<h1>Convert Temperature Between Fahrenheit and Celsius</h1>
+<br>
+
+    <label fontcolor="light green"><strong>Insert a number into one of the input fields below:</strong></label>
+<br>
+<br>
+    <input type="text" id="C" label="Celsius" value="">
+<label><strong>degrees Celsius</strong></label>
+<br>
+<label>Equals</label>
+<br>
+    <input type="text" id="F" label="Fahrenheit" value="">
+<label><strong>degrees Fahrenheit</strong></label>
+
+ <form method="get"
+          id="Temp">
+
+</form>
+<br>
+<br>
+<img src="temperature.jpeg">
+
+
+
+</body>
+</html>
